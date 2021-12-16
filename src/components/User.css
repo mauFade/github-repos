@@ -1,0 +1,23 @@
+.user {
+    margin-top: 20px;
+    padding: 20px 20px;
+    border: none;
+    background-color: #4ECCA3;
+    border-radius: 30px;
+    color: #000;
+    max-width: 90%;
+}
+
+.username {
+    margin-bottom: 10px;
+    color: #606770;
+}
+
+p {
+    font-weight: 500;
+}
+
+span {
+    font-weight: 400;
+}
+

@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.app {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232931;
+    height: 500vh;
+    color: #EEEEEE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+    margin-top: 50px;
+    padding: 60px 0px;
+    background-color: #393E46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.app-input {
+    height: 45px;
+    width: 230px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #232931;
+    color: #EEEEEE;
+    display: flex;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-input:focus {
+    height: 45px;
+    width: 230px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4ECCA3;
+    color: #000;
+    font-weight: 700;
+    outline: none;
+    display: flex;
+    text-align: center;
+}
+
+.app-button {
+    height: 45px;
+    color: #EEEEEE;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: #232931;
+    width: 90px;
+}
+
+.app-button:hover {
+    height: 45px;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: #4ECCA3;
+    width: 90px;
+    font-weight: 700;
+}
+
+.app-row {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 960px;
 }
